@@ -1,0 +1,33 @@
+﻿<Window x:Class="GUI.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="AddWindow" Height="500" Width="800">
+    <Grid Margin="0,0,0,-16">
+        <Label x:Name="LblPesel" HorizontalAlignment="Left" VerticalAlignment="Top" Content="PESEL" FontSize="20" Margin="88,10,0,0" Width="62"/>
+        <Label x:Name="LblName" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Name" FontSize="20" Margin="84,55,0,0"/>
+        <Label x:Name="LblSurname" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Surname" FontSize="20" Margin="80,105,0,0"/>
+        <Label x:Name="LblPhoneNumber" HorizontalAlignment="Left" VerticalAlignment="Top"  Content="Phone number" FontSize="20" Margin="49,155,0,0"/>
+        <Label x:Name="LblEmail" HorizontalAlignment="Left" VerticalAlignment="Top"  Content="Email" FontSize="20" Margin="79,207,0,0"/>
+        <Label x:Name="LblTeam" HorizontalAlignment="Left" VerticalAlignment="Top"  Content="Team" FontSize="20" Margin="80,317,0,0"/>
+        <Label x:Name="LblEducation" HorizontalAlignment="Left" VerticalAlignment="Top"  Content="Education" FontSize="20" Margin="67,267,0,0" RenderTransformOrigin="0.444,0.035"/>
+        <TextBox x:Name="TxtPesel" HorizontalAlignment="Left" VerticalAlignment="Top"  TextWrapping="Wrap" Text="" Margin="259,10,0,0" Width="486" Height="37"/>
+        <TextBox x:Name="TxtName" HorizontalAlignment="Left" VerticalAlignment="Top"  TextWrapping="Wrap" Text="" Margin="259,55,0,0" Width="486" Height="36"/>
+        <TextBox x:Name="TxtSurname" HorizontalAlignment="Left" VerticalAlignment="Top"  TextWrapping="Wrap" Text="" Margin="259,105,0,0" Width="486" Height="37"/>
+        <TextBox x:Name="TxtPhoneNumber" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Text="" Margin="259,155,0,0" Width="486" Height="37"/>
+        <TextBox x:Name="TxtEmail" HorizontalAlignment="Left" VerticalAlignment="Top"  TextWrapping="Wrap" Text="" Margin="259,207,0,0" Width="486" Height="37"/>
+
+        <Button x:Name="BtnZatwierdz" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Accept" FontSize="20"  Margin="418,374,0,0" Click="BtnZatwierdz_Click" Height="43" Width="168"/>
+        <Button x:Name="BtnAnuluj" HorizontalAlignment="Left" VerticalAlignment="Top"  Content="Close" FontSize="20"  Margin="56,374,0,0" Click="BtnAnuluj_Click" RenderTransformOrigin="-2.569,0.757" Height="43" Width="137"/>
+        <ComboBox x:Name="ComboEducation" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="259,267,0,0" Width="486" Height="36">
+            <ComboBoxItem x:Name="H">Higher</ComboBoxItem>
+            <ComboBoxItem x:Name="S">Secondary</ComboBoxItem>
+            <ComboBoxItem x:Name="P">Primary</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="ComboTeam" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="259,318,0,0" Width="486" Height="36"/>
+
+    </Grid>
+</Window>

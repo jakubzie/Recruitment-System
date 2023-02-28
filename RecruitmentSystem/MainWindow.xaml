@@ -1,0 +1,16 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="475" Width="800">
+    <Grid>
+        <Label x:Name="LblCompany" HorizontalAlignment="Center" VerticalAlignment="Top"  FontSize="40" Content="COMPANY X - RECRUITMENT SYSTEM" Margin="0,50,0,0" Width="708" Height="71"/>
+        <Button x:Name="BtnTeamList" HorizontalAlignment="Center" VerticalAlignment="Top"  FontSize="30" Content="Show the list of all teams" Margin="0,126,0,0" Click="BtnTeamList_Click" Height="97" Width="536"/>
+        <Button x:Name="BtnApplicantsList" HorizontalAlignment="Center" VerticalAlignment="Top"  FontSize="30" Content="Show the list of applicants" Margin="0,239,0,0" Click="BtnApplicantsList_Click" Height="100" Width="536"/>
+        <Button x:Name="BtnSave" HorizontalAlignment="Center" VerticalAlignment="Top"  FontSize="30" Content="Save and Exit" Margin="0,356,0,0" Width="536" Height="68" Click="BtnSave_Click"/>
+
+    </Grid>
+</Window>

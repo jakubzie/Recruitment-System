@@ -1,0 +1,26 @@
+﻿<Window x:Class="GUI.TeamsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="TeamsWindow" Height="500" Width="1200">
+    <Grid>
+        <Label x:Name="LblTeam" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="20" Content="Team:" Margin="34,54,0,0" Width="93"/>
+        <Label x:Name="LblTeamLeader" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="20" Content="Team Leader:" Margin="27,108,0,0" Height="49" Width="169"/>
+        <Label x:Name="LblRecruiter" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="20" Content="Recruiter:" Margin="34,162,0,0" Height="43" Width="124"/>
+        <Label x:Name="LblAccepted" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="20" Content="Accepted applicants:" Margin="34,227,0,0" Height="40" Width="226"/>
+        <ComboBox x:Name="ComboTeams" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="181,61,0,0" Width="282" Height="30"/>
+        <TextBox x:Name="TxtTeamLeader" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="20" TextWrapping="Wrap" Text="" Margin="181,113,0,0" Width="933" Height="39"/>
+        <TextBox x:Name="TxtRecruiter" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="20" TextWrapping="Wrap" Text="" Margin="181,166,0,0" Width="933" Height="36"/>
+        <ListBox x:Name="LstAccepted" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="20" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="260,260,0,0" Width="854" Height="152"/>
+        <Button x:Name="BtnRemove" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="25" Content="Remove" Margin="34,286,0,0" Click="BtnRemove_Click" Height="48" Width="138"/>
+        <Button x:Name="BtnClose" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="25" Content="Close" Margin="44,351,0,0" Click="BtnClose_Click" Height="48" Width="118"/>
+        <Button x:Name="BtnChoose" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="15" Content="Choose" Margin="486,67,0,0" Click="BtnChoose_Click"/>
+        <Label x:Name="LblMain" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="35" Content="Teams in company" RenderTransformOrigin="0.501,-0.235" Height="56" Width="306" Margin="494,0,0,0"/>
+
+
+
+    </Grid>
+</Window>
