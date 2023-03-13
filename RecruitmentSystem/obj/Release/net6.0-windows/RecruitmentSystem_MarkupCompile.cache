@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\DELL\Source\Repos\jakubzie\Recruitment-System\RecruitmentSystem\obj\Debug\net6.0-windows\
+C:\Users\DELL\Source\Repos\jakubzie\Recruitment-System\RecruitmentSystem\obj\Release\net6.0-windows\
 RecruitmentSystem
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\Users\DELL\Source\Repos\jakubzie\Recruitment-System\RecruitmentSystem\App.xaml
 4-277417818
 
