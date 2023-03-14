@@ -23,7 +23,7 @@ namespace RecruitmentSystem
         [DataMember]
         public int CountCV { get { return countCV; } set { countCV = value; } }
         [DataMember]
-        public Team TeamApplyingFor { get { return teamApplyingFor; } set { teamApplyingFor = value; } } //fishy
+        public Team TeamApplyingFor { get { return teamApplyingFor; } set { teamApplyingFor = value; } }
         [DataMember]
         public bool Accepted { get { return accepted; } set { accepted = value; } }
         [DataMember]
@@ -50,7 +50,7 @@ namespace RecruitmentSystem
 
         public override string ToString()
         {
-            return $"{base.ToString()}; {Education}; CV ID: {CVID}; Team: {TeamApplyingFor.TeamName}"; //nazwa zespołu tylko
+            return $"{base.ToString()}; {Education}; CV ID: {CVID}; Team: {TeamApplyingFor.TeamName}";
         }
         public object Clone()
         {

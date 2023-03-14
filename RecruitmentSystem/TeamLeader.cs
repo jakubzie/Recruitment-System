@@ -24,7 +24,8 @@ namespace RecruitmentSystem
             return $"{base.ToString()}, years of experience: {Experience}";
         }
 
-        public object Clone()
+        //what is a shallow and deep copy?
+        public object Clone() //we can just clone the instance of TeamLeader because it only consists of primitive types
         {
             return MemberwiseClone();
         }

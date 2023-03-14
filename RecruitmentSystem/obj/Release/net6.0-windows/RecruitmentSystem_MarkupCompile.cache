@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\DELL\Source\Repos\jakubzie\Recruitment-System\RecruitmentSystem\obj\Release\net6.0-windows\
+C:\Users\Kuba\Source\Repos\jakubzie\Recruitment-System\RecruitmentSystem\obj\Release\net6.0-windows\
 RecruitmentSystem
 none
 false
 TRACE;RELEASE;NET;NET6_0;NETCOREAPP
-C:\Users\DELL\Source\Repos\jakubzie\Recruitment-System\RecruitmentSystem\App.xaml
+C:\Users\Kuba\Source\Repos\jakubzie\Recruitment-System\RecruitmentSystem\App.xaml
 4-277417818
 
 16-49014619
-194237474483
+194-200944676
 AddWindow.xaml;ApplicantsWindow.xaml;MainWindow.xaml;TeamsWindow.xaml;
 
 True
